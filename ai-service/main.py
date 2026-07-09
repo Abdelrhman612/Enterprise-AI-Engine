@@ -4,12 +4,6 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"status": "Running", "message": "FastAPI شغال تمام وبدون مشاكل! 🚀"}
+    return {"Purpose": "This is a FastAPI application that serves as an AI service."}
 
 
-@app.get("/ask")
-def ask_question(question: str):
-    return {
-        "user_question": question,
-        "ai_response": f"تم استقبال سؤالك: '{question}'. السيرفر جاهز للربط مع باقي المشروع!"
-    }
