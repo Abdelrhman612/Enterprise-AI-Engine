@@ -1,0 +1,46 @@
+# ==========================================
+# Dotnet (.NET) GitIgnore
+# ==========================================
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+.idea/
+.vscode/
+
+# ==========================================
+# Python GitIgnore
+# ==========================================
+.venv/
+venv/
+ENV/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.pytest_cache/
+
+# ==========================================
+# Node.js / React GitIgnore
+# ==========================================
+node_modules/
+dist/
+dist-ssr/
+*.local
+.eslintcache
+.stylelintcache
+.npm
+.yarn/
+.pnpm-debug.log*
+
+# ==========================================
+# OS / IDE files
+# ==========================================
+.DS_Store
+Thumbs.db
+.DS_Store?
+ehthumbs.db

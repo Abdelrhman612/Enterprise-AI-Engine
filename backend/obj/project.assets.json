@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 3,
   "targets": {
     "net10.0": {
       "Microsoft.AspNetCore.OpenApi/10.0.9": {
@@ -83,29 +83,29 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\khaled\\.nuget\\packages\\": {}
+    "/home/abdelrahman-ayman/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Private\\Projects\\Enterprise-AI-Engine\\backend\\backend.csproj",
+      "projectUniqueName": "/home/abdelrahman-ayman/Projects/Enterprise-AI-Engine/backend/backend.csproj",
       "projectName": "backend",
-      "projectPath": "D:\\Private\\Projects\\Enterprise-AI-Engine\\backend\\backend.csproj",
-      "packagesPath": "C:\\Users\\khaled\\.nuget\\packages\\",
-      "outputPath": "D:\\Private\\Projects\\Enterprise-AI-Engine\\backend\\obj\\",
+      "projectPath": "/home/abdelrahman-ayman/Projects/Enterprise-AI-Engine/backend/backend.csproj",
+      "packagesPath": "/home/abdelrahman-ayman/.nuget/packages/",
+      "outputPath": "/home/abdelrahman-ayman/Projects/Enterprise-AI-Engine/backend/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\khaled\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/abdelrahman-ayman/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
       ],
       "sources": {
+        "/usr/lib/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net10.0": {
-          "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {}
         }
@@ -120,11 +120,10 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.300"
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "net10.0": {
-        "framework": "net10.0",
         "targetAlias": "net10.0",
         "dependencies": {
           "Microsoft.AspNetCore.OpenApi": {
@@ -151,7 +150,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/10.0.110/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
