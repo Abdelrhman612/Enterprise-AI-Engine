@@ -1,9 +1,10 @@
-from fastapi import FastAPI
+from app import create_app
 
-app = FastAPI()
+app = create_app()
 
-@app.get("/")
-def read_root():
-    return {"Purpose": "This is a FastAPI application that serves as an AI service."}
+if __name__ == "__main__":
+    import uvicorn
+
+    uvicorn.run("main:app", host="0.0.0.0", port=8000, log_level="info")
 
 

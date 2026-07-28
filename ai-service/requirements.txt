@@ -1,3 +1,9 @@
-langchain
-fastapi
-uvicorn
+fastapi==0.118.1
+uvicorn[standard]==0.24.0
+langchain==0.0.502
+ollama==0.1.8
+faiss-cpu==1.7.4
+python-multipart==0.0.6
+pydantic==2.9.0
+orjson==3.11.0
+python-dotenv==1.1.0
